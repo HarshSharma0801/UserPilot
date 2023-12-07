@@ -3,7 +3,7 @@ import { Routes , Route } from "react-router"
 import Login from "./Components/Auth/Login"
 import Signup from "./Components/Auth/Signup"
 import axios from "axios"
-import Display from "./Components/Display/display"
+import DisplayUsers from "./Components/Display/DisplayUsers"
 import Account from "./Components/Pages/Account"
 import Teams from "./Components/Teams/Teams"
 import Adduser from "./Components/AddUser/Adduser"
@@ -22,7 +22,7 @@ function App() {
     <Route path="/" element={<WelcomeUser/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/signup" element={<Signup/>}/>
-    <Route path="/dashboard" element={<Display/>}/>
+    <Route path="/dashboard" element={<DisplayUsers/>}/>
     <Route path="/account" element={<Account/>}/>
     <Route path="/teams" element={<Teams/>}/>
     <Route path="/adduser" element={<Adduser/>}/>

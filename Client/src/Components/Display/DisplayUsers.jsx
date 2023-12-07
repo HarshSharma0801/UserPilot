@@ -9,7 +9,7 @@ import TeamLayout from "./TeamLayout";
 import { useDispatch, useSelector } from "react-redux";
 import { TeamActions } from "../Context/Reducers/TeamContext";
 
-const Display = () => {
+const DisplayUsers = () => {
   const [isData, setisData] = useState(false);
   const [Person, SetPerson] = useState();
   const [isTeam, SetisTeam] = useState(false);
@@ -361,4 +361,4 @@ const Display = () => {
   );
 };
 
-export default Display;
+export default DisplayUsers;
