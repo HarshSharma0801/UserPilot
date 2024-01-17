@@ -10,7 +10,7 @@ A full-stack web application that allows users to view and interact with a list 
 
 
 
-## Screeshots
+## Screenshots
 ![Screenshot (63)](https://github.com/HarshSharma0801/UserPilot/assets/121893196/35ed7cd3-96f6-4f52-a133-92d8e3fa28b4)
 
 ![Screenshot (62)](https://github.com/HarshSharma0801/UserPilot/assets/121893196/40b186e8-b752-46cd-8f0d-6a248cb42aae)
